@@ -10,7 +10,7 @@ function countAnimals(animal) {
     });
     return result;
   }
-  const { specie, sex } = animal;
+  // const { specie, sex } = animal;
 }
 
 module.exports = countAnimals;
