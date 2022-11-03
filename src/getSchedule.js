@@ -12,9 +12,7 @@ const getAnimalslist = () => {
   return list;
 };
 
-const fullSchedule = () => {
-//
-};
+// const fullSchedule = () => {};
 
 function getSchedule(scheduleTarget) {
   const animals = getAnimalslist();
