@@ -40,4 +40,8 @@ describe('Testes da função getOpeningHours', () => {
     const actual = getOpeningHours('Tuesday', '09:00-AM');
     expect(actual).toBe('The zoo is open');
   });
+  it('Retorna uma string dizendo que o zoológico está fechado ao ser inserido Monday', () => {
+    const actual = getOpeningHours('Monday', '09:00-AM');
+    expect(actual).toBe('The zoo is closed');
+  });
 });
